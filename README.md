@@ -7,10 +7,15 @@
 ## Without Installation
 
 1. Git clone the repo.
+
    `git clone https://github.com/RainySummerLuo/`
+
 2. Change working directory to `whoareu`.
+
    `cd whoareu`
+
 3. Execute `whoareu`.
+
    `./whoareu`
 
 ## Installation
@@ -18,10 +23,15 @@
 ![Installation](https://user-images.githubusercontent.com/12462465/150367966-8649dd83-9c63-4b85-b212-592b7e3ec57c.png)
 
 1. Git clone the repo.
+
    `git clone https://github.com/RainySummerLuo/`
+
 2. Change working directory to whoareu.
+
    `cd whoareu`
+
 3. Install **whoareu** using the Makefile.
+
    `make install`
 
    MacOS: `make PREFIX=/usr/local install`
