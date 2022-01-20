@@ -1,5 +1,7 @@
 # whoareu
 
+**whoareu** prints the `host name` when invoked.
+
 ![whoareu](https://user-images.githubusercontent.com/12462465/150367978-7bc23626-1239-47bc-b41a-a5adca8d2d98.png)
 
 ## Installation
