@@ -10,11 +10,11 @@
 
    `git clone https://github.com/RainySummerLuo/`
 
-2. Change working directory to `whoareu`.
+2. Change working directory to **whoareu**.
 
    `cd whoareu`
 
-3. Execute `whoareu`.
+3. Execute **whoareu**.
 
    `./whoareu`
 
@@ -26,7 +26,7 @@
 
    `git clone https://github.com/RainySummerLuo/`
 
-2. Change working directory to whoareu.
+2. Change working directory to **whoareu**.
 
    `cd whoareu`
 
