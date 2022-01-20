@@ -1,1 +1,21 @@
-cat /etc/hostname
+whoareu=$(hostname)
+if [ $? -eq 0 ]; then
+    echo $whoareu
+else
+    whoareu=$(hostnamectl)
+    if [ $? -eq 0 ]; then
+        echo $whoareu
+    else
+        whoareu=$(cat /proc/sys/kernel/hostname)
+        if [ $? -eq 0 ]; then
+            echo $whoareu
+        else
+            whoareu=$(cat /etc/hostname)
+            if [ $? -eq 0 ]; then
+                echo $whoareu
+            else
+                echo "ERROR!"
+            fi
+        fi
+    fi
+fi
