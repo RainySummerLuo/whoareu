@@ -42,4 +42,4 @@
 
    MinGW/MSys: `make -i install`
 
-   **NOTE: You may have to run this as root.**
+   **NOTE: You may have to run this as root (`sudo`).**
