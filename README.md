@@ -8,7 +8,7 @@
 
 1. Git clone the repo.
 
-   `git clone https://github.com/RainySummerLuo/`
+   `git clone https://github.com/lzcapp/whoareu.git`
 
 2. Change working directory to **whoareu**.
 
@@ -19,6 +19,8 @@
    `./whoareu`
 
 ## Installation
+
+**NOTE: You may have to run as root (`sudo`).**
 
 ![Installation](https://user-images.githubusercontent.com/12462465/150367966-8649dd83-9c63-4b85-b212-592b7e3ec57c.png)
 
@@ -41,5 +43,3 @@
    OpenIndiana: `gmake install`
 
    MinGW/MSys: `make -i install`
-
-   **NOTE: You may have to run this as root (`sudo`).**
